@@ -4,7 +4,8 @@ namespace TestAppAPI
 {
     public class StudyGroup
     {
-        public StudyGroup(int studyGroupId, string name, Subject subject, DateTime createDate, List<User> users) {
+        public StudyGroup(int studyGroupId, string name, Subject subject, DateTime createDate, List<User> users)
+        {
             StudyGroupId = studyGroupId;
             Name = name;
             Subject = subject;
@@ -12,7 +13,7 @@ namespace TestAppAPI
             Users = users;
         }
         //Some logic will be missing to validate values according to acceptance criteria
-        
+
         public int StudyGroupId { get; }
         public string Name { get; }
         public Subject Subject { get; }
